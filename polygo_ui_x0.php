@@ -34,13 +34,13 @@ function initLayer(plain) {
   switch (plain) {
 
     case "x0":
-      w = 28; h = 49; t_init =  60; l_init =  13; ydx = 50; ydy = -25; xdx = 0; xdy = 29; offset_t = -1; offset_l = -14; break;
+      w = 28; h = 49; t_init =  60; l_init =  13; ydx = 52; ydy = -25; xdx = 0; xdy = 29; offset_t = -1; offset_l = -14; break;
     case "x1":
-      w = 28; h = 49; t_init =  77; l_init =  66; ydx = 50; ydy = -25; xdx = 0; xdy = 29; offset_t = 0; offset_l = -15;  break;
+      w = 28; h = 49; t_init =  77; l_init =  66; ydx = 52; ydy = -25; xdx = 0; xdy = 29; offset_t = -1; offset_l = -14;  break;
     case "x2":
-      w = 28; h = 49; t_init =  94; l_init = 119; ydx = 50; ydy = -25; xdx = 0; xdy = 29; offset_t = 0; offset_l = -15;  break;
+      w = 28; h = 49; t_init =  94; l_init = 119; ydx = 52; ydy = -25; xdx = 0; xdy = 29; offset_t = -1; offset_l = -14;  break;
     case "x3":
-      w = 28; h = 49; t_init = 111; l_init = 172; ydx = 50; ydy = -25; xdx = 0; xdy = 29; offset_t = 0; offset_l = -15;  break;
+      w = 28; h = 49; t_init = 111; l_init = 172; ydx = 52; ydy = -25; xdx = 0; xdy = 29; offset_t = -1; offset_l = -14;  break;
       
     case "y0":
       w = 49; h = 49; t_init =  60; l_init =  10; ydx = 50; ydy = 18; xdx = 0; xdy = 50; offset_t = 0; offset_l = -15;  break;
@@ -88,22 +88,22 @@ function initLayer(plain) {
 </div>
 
 <!-- switches -->
-<div id="over_00" style="position:absolute; background-color:red; opacity:0.5;" onMouseOver="onover('00')"></div>
-<div id="over_01" style="position:absolute; background-color:red; opacity:0.5;" onMouseOver="onover('01')"></div>
-<div id="over_02" style="position:absolute; background-color:red; opacity:0.5;" onMouseOver="onover('02')"></div>
-<div id="over_03" style="position:absolute; background-color:red; opacity:0.5;" onMouseOver="onover('03')"></div>
-<div id="over_10" style="position:absolute; background-color:red; opacity:0.5;" onMouseOver="onover('10')"></div>
-<div id="over_11" style="position:absolute; background-color:red; opacity:0.5;" onMouseOver="onover('11')"></div>
-<div id="over_12" style="position:absolute; background-color:red; opacity:0.5;" onMouseOver="onover('12')"></div>
-<div id="over_13" style="position:absolute; background-color:red; opacity:0.5;" onMouseOver="onover('13')"></div>
-<div id="over_20" style="position:absolute; background-color:red; opacity:0.5;" onMouseOver="onover('20')"></div>
-<div id="over_21" style="position:absolute; background-color:red; opacity:0.5;" onMouseOver="onover('21')"></div>
-<div id="over_22" style="position:absolute; background-color:red; opacity:0.5;" onMouseOver="onover('22')"></div>
-<div id="over_23" style="position:absolute; background-color:red; opacity:0.5;" onMouseOver="onover('23')"></div>
-<div id="over_30" style="position:absolute; background-color:red; opacity:0.5;" onMouseOver="onover('30')"></div>
-<div id="over_31" style="position:absolute; background-color:red; opacity:0.5;" onMouseOver="onover('31')"></div>
-<div id="over_32" style="position:absolute; background-color:red; opacity:0.5;" onMouseOver="onover('32')"></div>
-<div id="over_33" style="position:absolute; background-color:red; opacity:0.5;" onMouseOver="onover('33')"></div>
+<div id="over_00" style="position:absolute; background-color:red; opacity:0.0;" onMouseOver="onover('00')"></div>
+<div id="over_01" style="position:absolute; background-color:red; opacity:0.0;" onMouseOver="onover('01')"></div>
+<div id="over_02" style="position:absolute; background-color:red; opacity:0.0;" onMouseOver="onover('02')"></div>
+<div id="over_03" style="position:absolute; background-color:red; opacity:0.0;" onMouseOver="onover('03')"></div>
+<div id="over_10" style="position:absolute; background-color:red; opacity:0.0;" onMouseOver="onover('10')"></div>
+<div id="over_11" style="position:absolute; background-color:red; opacity:0.0;" onMouseOver="onover('11')"></div>
+<div id="over_12" style="position:absolute; background-color:red; opacity:0.0;" onMouseOver="onover('12')"></div>
+<div id="over_13" style="position:absolute; background-color:red; opacity:0.0;" onMouseOver="onover('13')"></div>
+<div id="over_20" style="position:absolute; background-color:red; opacity:0.0;" onMouseOver="onover('20')"></div>
+<div id="over_21" style="position:absolute; background-color:red; opacity:0.0;" onMouseOver="onover('21')"></div>
+<div id="over_22" style="position:absolute; background-color:red; opacity:0.0;" onMouseOver="onover('22')"></div>
+<div id="over_23" style="position:absolute; background-color:red; opacity:0.0;" onMouseOver="onover('23')"></div>
+<div id="over_30" style="position:absolute; background-color:red; opacity:0.0;" onMouseOver="onover('30')"></div>
+<div id="over_31" style="position:absolute; background-color:red; opacity:0.0;" onMouseOver="onover('31')"></div>
+<div id="over_32" style="position:absolute; background-color:red; opacity:0.0;" onMouseOver="onover('32')"></div>
+<div id="over_33" style="position:absolute; background-color:red; opacity:0.0;" onMouseOver="onover('33')"></div>
 
 <!-- ball -->
 <div id="ball" style="position:absolute; visibility:hidden;"><?php echo $stoneImgStr; ?></div>
