@@ -1,2 +1,2 @@
 -- polygo --
-3D go interfaces.
+3D go interface.
